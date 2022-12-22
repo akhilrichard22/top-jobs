@@ -1,0 +1,54 @@
+.navContainer {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.logoImg {
+  border-radius: 30% !important;
+}
+
+.navLinks {
+  text-decoration: none;
+  /* color: var(--bs-nav-link-color); */
+  color: white;
+}
+
+.navbarColor.navbar.navbar-expand.navbar-dark.bg-dark {
+  background-color: #950000 !important;
+}
+
+/* body{
+  background-color: #212529 !important;
+} */
+
+.homeButtonContainer {
+  padding: 20px !important;
+  text-align: center;
+}
+
+.homeButtons {
+  background-color: #950000 !important;
+  color: white !important;
+}
+
+.ui.card.jobCard {
+  width: 100%;
+}
+
+.formErrorContainer{
+  margin: 10px !important;
+}
+
+.ui.button{
+  width: 140px;
+}
+
+.contactCard{
+  width: 50%;
+}
+
+.contactUsCard{
+  margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
