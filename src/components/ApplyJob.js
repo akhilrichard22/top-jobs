@@ -100,6 +100,9 @@ function ApplyJob(props) {
                                                 <div style={{ paddingTop: '10px' }}>
                                                     <Icon name='building' />{jobDetails.state.company}
                                                 </div>
+                                                <div style={{ paddingTop: '10px' }}>
+                                                    <Icon name='time' />{jobDetails.state.experience}
+                                                </div>
                                             </Card.Description>
                                         </Card.Content>
                                     </Card>
