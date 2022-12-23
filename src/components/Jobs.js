@@ -25,7 +25,7 @@ function Jobs(props) {
                     ?
                     props.jobs.map((item) => {
                         return (
-                            <Card className="jobCard" >
+                            <Card className="jobCard" key={item.id}>
                                 <Card.Content>
                                     <Card.Header> {item.title} </Card.Header>
                                     <Card.Description>
