@@ -7,9 +7,8 @@
   border-radius: 30% !important;
 }
 
-.navLinks {
+.navLinks.nav-link {
   text-decoration: none;
-  /* color: var(--bs-nav-link-color); */
   color: white;
 }
 
