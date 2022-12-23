@@ -26,15 +26,9 @@ function NavBar(props) {
             <Container>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto justify-content-end">
-                        <Nav.Link>
-                            <Link to="/home" className='navLinks'>Home</Link>
-                        </Nav.Link>
-                        <Nav.Link>
-                            <Link to="/jobs" className='navLinks'>Jobs</Link>
-                        </Nav.Link>
-                        <Nav.Link>
-                            <Link to="/contact" className='navLinks'>Contact Us</Link>
-                        </Nav.Link>
+                        <Link to="/home" className='navLinks nav-link'>Home</Link>
+                        <Link to="/jobs" className='navLinks nav-link'>Jobs</Link>
+                        <Link to="/contact" className='navLinks nav-link'>Contact Us</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
