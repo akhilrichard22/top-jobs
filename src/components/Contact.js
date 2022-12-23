@@ -15,7 +15,6 @@ function Contact(props) {
     const [applicantMessageError, setAppMessageError] = useState(false);
 
     useEffect(() => {
-        // console.log("entryyyyy".props.contactApplicationStatus)
         props.postContactStatus(false);
     }, []);
 
@@ -228,7 +227,6 @@ function Contact(props) {
 }
 
 const mapStateToProps = (state) => {
-    console.log("poiuyttrrhjggvj", state);
     return {
         contactApplicationStatus: state.contact.contactApplicationStatus
     }
